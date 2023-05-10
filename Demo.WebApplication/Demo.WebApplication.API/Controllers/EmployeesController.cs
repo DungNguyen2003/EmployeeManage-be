@@ -31,7 +31,7 @@ namespace Demo.WebApplication.API.Controllers
                 parameters.Add("v_EmployeeId", employeeId);
 
                 // Khởi tạo kết nối
-                string connectionString = "Server=18.179.16.166;Port=3306;Database=MISA.HOU2023_NVDUNG;Uid=nvmanh;Pwd=12345678;";
+                string connectionString = "Server=localhost;Port=3306;Database=misa.hou2023_nvdung;Uid=root;Pwd=111103;";
                 var mySqlConnection = new MySqlConnection(connectionString);
 
                 // Thực hiện câu lệnh Sql
@@ -100,7 +100,7 @@ namespace Demo.WebApplication.API.Controllers
             parameters.Add("v_EmployeeBankNumber", employeeInfo.EmployeeBankNumber);
 
             // Khởi tạo kết nối
-            string connectionString = "Server=18.179.16.166;Port=3306;Database=MISA.HOU2023_NVDUNG;Uid=nvmanh;Pwd=12345678;";
+            string connectionString = "Server=localhost;Port=3306;Database=misa.hou2023_nvdung;Uid=root;Pwd=111103;";
             var mySqlConnection = new MySqlConnection(connectionString);
 
             // Thực hiện câu lệnh Sql
@@ -156,7 +156,7 @@ namespace Demo.WebApplication.API.Controllers
                 //parameters.Add("v_EmployeeId", employeeId);
 
                 // Khởi tạo kết nối
-                string connectionString = "Server=18.179.16.166;Port=3306;Database=MISA.HOU2023_NVDUNG;Uid=nvmanh;Pwd=12345678;";
+                string connectionString = "Server=localhost;Port=3306;Database=misa.hou2023_nvdung;Uid=root;Pwd=111103;";
                 var mySqlConnection = new MySqlConnection(connectionString);
 
                 // Thực hiện câu lệnh Sql
@@ -210,7 +210,7 @@ namespace Demo.WebApplication.API.Controllers
                 parameters.Add("v_EmployeeId", employeeId);
 
                 // Khởi tạo kết nối
-                string connectionString = "Server=18.179.16.166;Port=3306;Database=MISA.HOU2023_NVDUNG;Uid=nvmanh;Pwd=12345678;";
+                string connectionString = "Server=localhost;Port=3306;Database=misa.hou2023_nvdung;Uid=root;Pwd=111103;";
                 var mySqlConnection = new MySqlConnection(connectionString);
 
                 // Thực hiện câu lệnh Sql

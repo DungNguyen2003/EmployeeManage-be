@@ -23,6 +23,8 @@ namespace Demo.WebApplication.API.Entities.DTO
 
         public string DepartmentName { get; set; }
 
+        public string DepartmentCode { get; set; }
+
         public string EmployeePeopleId { get; set; }
 
         public string EmployeePeopleIdLocation { get; set; }
